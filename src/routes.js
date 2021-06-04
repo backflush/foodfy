@@ -2,8 +2,8 @@ const express = require("express");
 
 const routes = express.Router();
 
-routes.get("/", (req, res) => {
-    res.send("It's OK");
-});
+const DashboardController = require("./controllers/DashboardController");
+
+routes.get("/", DashboardController.index);
 
 module.exports = routes;
