@@ -1,0 +1,12 @@
+{
+  "name": "foodfy",
+  "version": "1.0.0",
+  "description": "It's an database of recipes done by the best cookers in the world.",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "nodemon src/app.js"
+  },
+  "keywords": [],
+  "author": "Wesley Bernardes",
+  "license": "MIT"
+}
