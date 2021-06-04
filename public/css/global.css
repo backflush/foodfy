@@ -66,14 +66,18 @@ footer {
     border-radius: .5rem;
 }
 
-.modal h1 {
-    font-size: 1.5rem;
-    margin: 1rem 0 .5rem 0;
+.modal-body {
+    margin: 1rem 0;
 }
 
-.modal p {
+.modal-body h1 {
+    font-size: 1.5rem;
+    margin: .625rem 0;
+}
+
+.modal-body p {
     font-size: 1.125rem;
-    color: var(--dark-gray-4);
+    color: var(--dark-gray-5);
 }
 
 .modal button {
