@@ -4,13 +4,13 @@
     margin: 0 auto;
 }
 
-.content h3 {
+#about h3 {
     font-size: 1.5rem;
     color: var(--dark-gray);
     margin-top: 2rem;
 }
 
-.content p {
+#about p {
     color: var(--dark-gray-2);
     font-size: 1.125rem;
     margin: 1rem 0;
