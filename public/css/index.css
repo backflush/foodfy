@@ -1,0 +1,34 @@
+main .container {
+    max-width: 940px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#hero {
+    display: flex;
+    width: 100%;
+    padding: 2rem 5rem 0 5rem;
+    border-radius: 2rem;
+    background-color: var(--light-pink);
+    margin: 2rem 0;
+    justify-content: space-between;
+}
+
+#hero .left-col h2 {
+    font-size: 2rem;
+    margin: 2.8rem 0 .5rem 0;
+}
+
+#hero .left-col p {
+    color: var(--light-gray-4);
+    line-height: 1.5rem;
+}
+
+#recipes {
+    margin: 2.5rem 0;
+}
+
+#recipes h3 {
+    font-size: 1.5rem;
+    color: #111111;
+}
