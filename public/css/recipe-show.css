@@ -1,0 +1,72 @@
+main .container {
+    max-width: 940px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    font-size: 0.75rem;
+    color: var(--light-gray-3);
+    cursor: pointer;
+}
+
+#title h1 {
+    text-align: center;
+    font-size: 2.25rem;
+    color: var(--dark-gray-3);
+}
+
+#title p {
+    font-size: 1.25rem;
+    text-align: center;
+    color: var(--dark-gray-5);
+    margin: .5rem 0;
+}
+
+.image-header {
+    margin: 2rem 0;
+    max-width: 940px;
+}
+
+.image-header img {
+    width: 100%;
+    height: 280px;
+    border-radius: .9rem;
+}
+
+#ingredients, #preparation, #information {
+    margin: 2rem 0;
+}
+
+.ingredients-header, .preparation-header, .information-header {
+    display: flex;
+    align-items: baseline;
+}
+
+.ingredients-header h3, .preparation-header h3, .information-header h3 {
+    font-size: 1.5rem;
+}
+
+.ingredients-header button, .preparation-header button, .information-header button {
+    margin: 0 0 0 1rem;
+}
+
+.ingredients-content, .preparation-content, .information-content {
+    margin: 1rem 0;
+}
+
+.ingredients-content ul li, .preparation-content ul li {
+    list-style-type: disc;
+    margin: .5rem 0 0 1.5rem;
+    font-size: 1.125rem;
+    color: var(--dark-gray-2);
+}
+
+.information-content p {
+    margin: .5rem 0 0 0;
+    font-size: 1.125rem;
+    color: var(--dark-gray-2);
+    text-align: justify;
+}
