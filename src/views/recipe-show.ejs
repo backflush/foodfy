@@ -1,14 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
     <%- include("./partials/head") %>
-    <link rel="stylesheet" href="../../css/recipes.css">
+    <link rel="stylesheet" href="../../css/recipe-show.css">
     <title>Foodfy | Receitas</title>
 <body>
     <%- include("./partials/navbar") %> 
 
     <main>
         <div class="container">
-            
+            <img src="../../assets/burger.png" alt="">
+            <h1>Triplo bacon burger</h1>
+            <p>por Jorge Relato</p>
+
+            <div id="ingredients">
+                <div class="ingredients-header">
+                    <h3>Ingredientes</h3>
+                    <button type="button">ESCONDER</button>
+                </div>
+                <div class="ingredients-content">
+                    <ul>
+                        <li>3 kg de carne moída (escolha uma carne magra e macia)</li>
+                        <li>300 g de bacon moído</li>
+                        <li>1 ovo</li>
+                        <li>3 colheres (sopa) de farinha de trigo</li>
+                        <li>3 colheres (sopa) de tempero caseiro: feito com alho, sal, cebola, pimenta e cheiro verde processados no liquidificador</li>
+                        <li>30 ml de água gelada</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div id="preparation">
+                <div class="preparation-header">
+                    <h3>Modo de preparo</h3>
+                    <button type="button">MOSTRAR</button>
+                </div>
+
+                <div class="preparation-content">
+                    <ul>
+                        <li>Misture todos os ingredientes muito bem e amasse para que fique tudo muito bem misturado.</li>
+                        <li>Faça porções de 90 g a 100 g.</li>
+                        <li>Forre um plástico molhado em uma bancada e modele os hambúrgueres utilizando um aro como base.</li>
+                        <li>Faça um de cada vez e retire o aro logo em seguida.</li>
+                        <li>Forre uma assadeira de metal com plástico, coloque os hambúrgueres e intercale camadas de carne e plásticos (sem apertar).</li>
+                        <li>Faça no máximo 4 camadas por forma e leve para congelar.</li>
+                        <li>Retire do congelador, frite ou asse e está pronto.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div id="information">
+                <div class="information-header">
+                    <h3>Informações adicionais</h3>
+                    <button type="button">ESCONDER</button>
+                </div>
+
+                <p>Preaqueça a chapa, frigideira ou grelha por 10 minutos antes de levar os hambúrgueres. Adicione um pouquinho de óleo ou manteiga e não amasse os hambúrgueres! </br></br> Você sabia que a receita que precede o hambúrguer surgiu no século XIII, na Europa? A ideia de moer a carne chegou em Hamburgo no século XVII, onde um açougueiro resolveu também temperá-la. Assim, a receita foi disseminada nos Estados Unidos por alemães da região. Lá surgiu a ideia de colocar o hambúrguer no meio do pão e adicionar outros ingredientes, como queijo, tomates e alface.</p>
+            </div>
         </div>
     </main>
 
