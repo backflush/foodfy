@@ -12,4 +12,6 @@ routes.get("/about", AboutController.index);
 
 routes.get("/recipes", RecipesController.index);
 
+routes.get("/recipe", RecipesController.show);
+
 module.exports = routes;
