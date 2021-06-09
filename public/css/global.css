@@ -2,15 +2,19 @@
     --light-gray: #f3f3f3;
     --light-gray-2: #eeeeee;
     --light-gray-3: #999999;
+
     --dark-gray: #333333;
     --dark-gray-2: #444444;
     --dark-gray-3: #111111;
     --dark-gray-4: #434242;
     --dark-gray-5: #777777;
+
     --white: #ffffff;
     --black: #000000;
+
     --modalOverlayColor: #000000b3;
     --modalColor: #f0f2f5;
+
     --light-pink: #fbdfdb;
 }
 
@@ -69,6 +73,7 @@ nav ul li a {
     color: var(--dark-gray-4);
     font-weight: 500;
     font-size: .925rem;
+    letter-spacing: .065rem;
 }
 
 nav ul li a:hover {
