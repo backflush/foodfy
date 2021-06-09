@@ -56,7 +56,7 @@ nav .logo {
 }
 
 nav .active {
-    font-weight: bold;
+    font-weight: 700;
     color: var(--dark-gray-3);
 }
 
