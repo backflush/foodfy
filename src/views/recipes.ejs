@@ -10,14 +10,18 @@
     <main>
         <div class="container">
             <section id="recipes">
-                <div class="card">
-                    <div class="card-header" onclick="Modal.open()">
-                        <img src="/assets/burger.png" alt="">
-                    </div>
-                    <div class="card-body">
-                        <h5 class="title">Triplo bacon burger</h5>
-                        <p>por Jorge Relato</p>
-                    </div>
+                <div class="recipes-content">
+                    <% data.forEach(data => { %>
+                        <div class="card">
+                            <div class="card-header" onclick="Modal.open()">
+                                <img src="<%= data.image %>" alt="">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="title"><%= data.title %></h5>
+                                <p>por <%= data.author %></p>
+                            </div>
+                        </div>
+                    <% }); %> 
                 </div>
             </section>
         </div>

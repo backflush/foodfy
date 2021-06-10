@@ -3,3 +3,29 @@ main .container {
     width: 80%;
     margin: 0 auto;
 }
+
+#recipes {
+    margin: 2.5rem 0;
+}
+
+.recipes-content {
+    display: grid;
+    gap: 1.25rem;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+@media(max-width: 800px) {
+    .recipes-content {
+        gap: 1.8rem;
+    }
+}
+
+@media(max-width: 500px) {
+    #recipes {
+        text-align: center;
+    }
+    
+    .recipes-content {
+        display: block;
+    }
+}
