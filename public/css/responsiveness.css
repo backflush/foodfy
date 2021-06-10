@@ -3,67 +3,21 @@
         font-size: 75%;
     }
 
-    #hero .right-col img {
-        max-width: 300px;
-        width: 80%;
-    }
-
-    nav .container {
-        width: 85%;
-    }
-
-    .recipes-content {
-        gap: 1.8rem;
+    nav {
+        width: 100%;
     }
 
     nav ul {
         margin-left: auto;
     }
 
-    .card {
-        max-width: 190px;
-        width: 100%;
-    }
-
-    .card-header img {
-        width: 100%;
-    }
-
-    .card-header {
-        max-width: 190px;
+    nav .container {
+        width: 85%;
     }
 }
 
 @media(max-width: 500px) {
     :root {
         font-size: 62.25%;
-    }
-
-    #hero .left-col {
-        width: 100%;
-    }
-
-    #hero .right-col img {
-        display: none;
-    }
-
-    #hero .left-col h2 {
-        margin: 0 0 1rem 0;
-    }
-
-    #hero {
-        padding: 2rem 5rem;
-    }
-
-    #recipes {
-        text-align: center;
-    }
-    
-    .card {
-        margin: 1.5rem auto .5rem auto;
-    }
-
-    .recipes-content {
-        display: block;
     }
 }
