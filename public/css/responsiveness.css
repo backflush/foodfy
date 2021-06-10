@@ -14,10 +14,27 @@
     nav .container {
         width: 85%;
     }
+
+    .card {
+        max-width: 190px;
+        width: 100%;
+    }
+
+    .card-header img {
+        width: 100%;
+    }
+
+    .card-header {
+        max-width: 190px;
+    }
 }
 
 @media(max-width: 500px) {
     :root {
         font-size: 62.25%;
+    }
+
+    .card {
+        margin: 1.5rem auto .5rem auto;
     }
 }

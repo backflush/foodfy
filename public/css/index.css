@@ -47,19 +47,6 @@ main .container {
         max-width: 300px;
         width: 80%;
     }   
-
-    .card {
-        max-width: 190px;
-        width: 100%;
-    }
-
-    .card-header img {
-        width: 100%;
-    }
-
-    .card-header {
-        max-width: 190px;
-    }
 }
 
 @media(max-width: 500px) {
@@ -83,9 +70,7 @@ main .container {
         text-align: center;
     }
     
-    .card {
-        margin: 1.5rem auto .5rem auto;
-    }
+    
 
     .recipes-content {
         display: block;
