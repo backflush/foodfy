@@ -8,11 +8,28 @@
         width: 80%;
     }
 
+    nav .container {
+        width: 85%;
+    }
+
+    .recipes-content {
+        gap: 1.8rem;
+    }
+
     nav ul {
         margin-left: auto;
     }
 
+    .card {
+        max-width: 190px;
+        width: 100%;
+    }
+
     .card-header img {
-        max-width: 200px;
+        width: 100%;
+    }
+
+    .card-header {
+        max-width: 190px;
     }
 }

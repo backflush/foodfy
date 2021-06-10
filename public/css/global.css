@@ -84,6 +84,12 @@ nav ul li a:hover {
     display: none;
 }
 
+.recipes-content {
+    display: grid;
+    gap: 1.25rem;
+    grid-template-columns: repeat(3, 1fr);
+}
+
 .card {
     margin: 1.5rem 0 .5rem 0;
     max-width: 300px;
