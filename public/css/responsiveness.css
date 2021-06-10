@@ -1,0 +1,18 @@
+@media(max-width: 800px) {
+    :root {
+        font-size: 75%;
+    }
+
+    #hero .right-col img {
+        max-width: 300px;
+        width: 80%;
+    }
+
+    nav ul {
+        margin-left: auto;
+    }
+
+    .card-header img {
+        max-width: 200px;
+    }
+}

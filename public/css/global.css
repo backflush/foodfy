@@ -76,12 +76,12 @@ nav ul li a {
     letter-spacing: .0625rem;
 }
 
-.display {
-    display: none;
-}
-
 nav ul li a:hover {
     text-decoration: underline;
+}
+
+.display {
+    display: none;
 }
 
 .card {
