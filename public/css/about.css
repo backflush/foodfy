@@ -2,6 +2,7 @@
     max-width: 940px;
     width: 80%;
     margin: 0 auto;
+    text-align: justify;
 }
 
 #about h3 {
@@ -14,4 +15,25 @@
     color: var(--dark-gray-2);
     font-size: 1.125rem;
     margin: 1rem 0;
+}
+
+@media(max-width: 800px) {
+    :root {
+        font-size: 75%;
+    }
+
+    #about {
+        max-width: 700px;
+        width: 85%;
+    }
+}
+
+@media(max-width: 500px) {
+    :root {
+        font-size: 62.25%;
+    }
+
+    #about {
+        width: 80%;
+    }
 }
