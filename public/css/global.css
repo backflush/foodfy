@@ -32,7 +32,7 @@ footer {
     padding: 2rem 0;
     margin: 3rem 0 0 0;
     color: var(--light-gray-3);
-    letter-spacing: .0725rem;
+    letter-spacing: .0625rem;
     font-size: .875rem;
 }
 
@@ -73,7 +73,11 @@ nav ul li a {
     color: var(--dark-gray-4);
     font-weight: 500;
     font-size: .925rem;
-    letter-spacing: .065rem;
+    letter-spacing: .0625rem;
+}
+
+.display {
+    display: none;
 }
 
 nav ul li a:hover {
