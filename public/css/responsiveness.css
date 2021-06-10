@@ -33,3 +33,37 @@
         max-width: 190px;
     }
 }
+
+@media(max-width: 500px) {
+    :root {
+        font-size: 62.25%;
+    }
+
+    #hero .left-col {
+        width: 100%;
+    }
+
+    #hero .right-col img {
+        display: none;
+    }
+
+    #hero .left-col h2 {
+        margin: 0 0 1rem 0;
+    }
+
+    #hero {
+        padding: 2rem 5rem;
+    }
+
+    #recipes {
+        text-align: center;
+    }
+    
+    .card {
+        margin: 1.5rem auto .5rem auto;
+    }
+
+    .recipes-content {
+        display: block;
+    }
+}
