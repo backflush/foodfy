@@ -13,19 +13,3 @@ main .container {
     gap: 1.25rem;
     grid-template-columns: repeat(3, 1fr);
 }
-
-@media(max-width: 800px) {
-    .recipes-content {
-        gap: 1.8rem;
-    }
-}
-
-@media(max-width: 500px) {
-    #recipes {
-        text-align: center;
-    }
-    
-    .recipes-content {
-        display: block;
-    }
-}

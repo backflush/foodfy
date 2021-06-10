@@ -39,10 +39,6 @@ main .container {
 }
 
 @media(max-width: 800px) {
-    .recipes-content {
-        gap: 1.8rem;
-    }
-
     #hero .right-col img {
         max-width: 300px;
         width: 80%;
@@ -64,13 +60,5 @@ main .container {
 
     #hero {
         padding: 2rem 5rem;
-    }
-
-    #recipes {
-        text-align: center;
-    }
-    
-    .recipes-content {
-        display: block;
     }
 }

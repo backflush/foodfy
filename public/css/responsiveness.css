@@ -27,6 +27,10 @@
     .card-header {
         max-width: 190px;
     }
+
+    .recipes-content {
+        gap: 1.8rem;
+    }
 }
 
 @media(max-width: 500px) {
@@ -36,5 +40,13 @@
 
     .card {
         margin: 1.5rem auto .5rem auto;
+    }
+
+    #recipes {
+        text-align: center;
+    }
+    
+    .recipes-content {
+        display: block;
     }
 }
