@@ -1,5 +1,6 @@
 nav {
     background-color: var(--dark-gray-3);
+    width: 100%;
 }
 
 #recipes h3 {
