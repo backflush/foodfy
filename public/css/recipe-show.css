@@ -70,3 +70,9 @@ button {
     color: var(--dark-gray-2);
     text-align: justify;
 }
+
+@media(max-width: 500px) {
+    .image-header img {
+        height: auto;
+    }
+}
