@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include("../partials/head") %>
+    <link rel="stylesheet" href="../../css/recipes.css">
+    <link rel="stylesheet" href="../../css/admin.css">
+    <link rel="stylesheet" href="../../css/responsiveness.css">
+    <title>Foodfy - Administrador | Receitas</title>
+<body>
+    <%- include("../partials/admnav") %> 
+
+    <main>
+        <div class="container">
+            <section id="recipes">
+                <h3>Gerenciar receitas</h3>
+                <div class="recipes-content">
+                    <% data.forEach(data => { %>
+                        <div class="card">
+                            <div class="card-header" onclick="Modal.open()">
+                                <img src="<%= data.image %>" alt="">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="title"><%= data.title %></h5>
+                                <p>por <%= data.author %></p>
+                            </div>
+                        </div>
+                    <% }); %> 
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <%- include("../partials/modal") %> 
+    
+    <%- include("../partials/scripts") %>
+</body>
+</html>
