@@ -1,0 +1,64 @@
+nav {
+    background-color: var(--dark-gray-3);
+    width: 100%;
+}
+
+nav ul li a {
+    color: var(--light-gray-3);
+}
+
+nav .logo {
+    margin: 0 0 0 .5rem;
+}
+
+nav .active {
+    font-weight: 700;
+    color: var(--light-gray);
+}
+
+#recipes h3 {
+    font-size: 1.5rem;
+}
+
+.recipes-content {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.card {
+    max-width: none;
+    display: flex;
+}
+
+.card-header img {
+    max-width: 172px;
+    height: 80px;
+    border-radius: .9rem;
+    cursor: pointer;
+}
+
+.card-body {
+    margin: 0 1rem;
+}
+
+.card-body h5 {
+    font-size: 1.125rem;
+    color: var(--dark-gray-3);
+}
+
+.card-body p {
+    color: var(--dark-gray-5);
+    margin: .3rem 0;
+}
+
+.card-body a {
+    text-decoration: none;
+    display: block;
+    font-size: .925rem;
+    color: #d54f44;
+    margin: .5rem 0 0 0;
+}
+
+.card-body a:hover {
+    text-decoration: underline;
+}

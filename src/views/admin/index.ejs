@@ -2,7 +2,7 @@
 <html lang="en">
     <%- include("../partials/head") %>
     <link rel="stylesheet" href="../../css/recipes.css">
-    <link rel="stylesheet" href="../../css/admin.css">
+    <link rel="stylesheet" href="../../css/admin/global.css">
     <link rel="stylesheet" href="../../css/responsiveness.css">
     <title>Foodfy - Administrador | Receitas</title>
 <body>
@@ -21,6 +21,7 @@
                             <div class="card-body">
                                 <h5 class="title"><%= data.title %></h5>
                                 <p>por <%= data.author %></p>
+                                <a href="/recipes/<%= data.id %>">Ver mais</a>
                             </div>
                         </div>
                     <% }); %> 

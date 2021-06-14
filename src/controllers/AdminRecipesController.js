@@ -5,5 +5,5 @@ module.exports = {
         res.render("admin/index", {
             data: data
         });
-    }
+    },
 }
