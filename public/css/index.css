@@ -42,7 +42,7 @@ main .container {
     #hero .right-col img {
         max-width: 300px;
         width: 80%;
-    }   
+    }
 }
 
 @media(max-width: 500px) {
@@ -56,6 +56,7 @@ main .container {
 
     #hero .left-col h2 {
         margin: 0 0 1rem 0;
+        text-align: center;
     }
 
     #hero {
