@@ -28,6 +28,7 @@ nav .active {
 .card {
     max-width: none;
     display: flex;
+    align-items: center;
 }
 
 .card-header img {

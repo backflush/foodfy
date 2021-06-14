@@ -1,0 +1,44 @@
+@media(max-width: 800px) {
+    :root {
+        font-size: 75%;
+    }
+
+    nav {
+        width: 100% !important;
+    }
+
+    nav ul {
+        margin-left: auto;
+    }
+
+    nav .container {
+        width: 85%;
+    }
+
+    .card {
+        max-width: 300px;
+        width: 100%;
+    }
+
+    .card-header img {
+        width: auto;
+    }
+
+    .card-header {
+        max-width: 190px;
+    }
+
+    .recipes-content {
+        gap: 1.8rem;
+    }
+}
+
+@media(max-width: 500px) {
+    .card {
+        flex-direction: column;
+    }
+
+    .card-body {
+        margin: 1rem 0 1rem 0;
+    }
+}
