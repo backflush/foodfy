@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include("../partials/head") %>
+    <link rel="stylesheet" href="../../../css/partials/card.css">
+    <link rel="stylesheet" href="../../../css/partials/navbar.css">
+    <link rel="stylesheet" href="../../../css/partials/modal.css">
+    <link rel="stylesheet" href="../../../css/partials/footer.css">
+    <link rel="stylesheet" href="../../../css/pages/admin-index.css">
+    <link rel="stylesheet" href="../../css/responsiveness.css">
+    <title>Foodfy - Administrador | Receitas</title>
+<body>
+    <%- include("../partials/admnav") %> 
+
+    <main>
+        <div class="container">
+            <section id="recipes">
+                <div id="title">
+                    <h3>Adicionando receitas</h3>
+                    <a href="/admin/create" class="btn-add">Salvar receita</a>
+                </div>
+                <div id="form">
+                    <form action="/admin/create" method="post">
+                        <div class="input-group">
+                            <label for="image">Imagem da receita</label>
+                            <input type="url" name="image" id="image">
+                        </div>
+                        <div class="input-group">
+                            <label for="ingredients">Ingredientes</label>
+                            <input type="text" name="ingredients" id="ingredients">
+                        </div>
+                        <button type="button">Adicionar novo ingrediente</button>
+                        <div class="input-group">
+                            <label for="preparation">Modo de preparo</label>
+                            <input type="text" name="preparation" id="preparation">
+                        </div>
+                        <button type="button">Adcionar novo passo</button>
+                        <div class="input-group">
+                            <label for="information">Informações adicionais</label>
+                            <textarea name="information" id="information" cols="30" rows="7"></textarea>
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </div>
+    </main>
+    
+    <%- include("../partials/scripts") %>
+</body>
+</html>

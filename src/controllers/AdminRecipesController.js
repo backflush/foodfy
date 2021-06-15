@@ -6,4 +6,8 @@ module.exports = {
             data: data
         });
     },
+
+    create(req, res) {
+        res.render("admin/create");
+    },
 }

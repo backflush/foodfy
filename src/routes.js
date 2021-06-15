@@ -17,4 +17,6 @@ routes.get("/recipes/:id", RecipesController.show);
 
 routes.get("/admin/recipes", AdminRecipesController.index);
 
+routes.get("/admin/create", AdminRecipesController.create);
+
 module.exports = routes;

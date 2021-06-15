@@ -29,7 +29,7 @@ main .container {
 
 #title a {
     font-size: .9rem;
-    border-radius: .4rem;
+    border-radius: .25rem;
     color: var(--white);
     font-weight: 600;
     text-decoration: none;
@@ -41,6 +41,41 @@ main .container {
 
 #title a:hover {
     opacity: .9;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    padding: 1.2rem 0 0 0;
+}
+
+.input-group label {
+    margin: 1rem 0 .725rem 0;
+    font-weight: 600;
+}
+
+.input-group input {
+    border: 1px solid #DDDDDD;
+    border-radius: .25rem;
+    padding: .5rem .5rem;
+}
+
+.input-group textarea {
+    resize: none;
+    border-radius: .25rem;
+    border: 1px solid #DDDDDD;
+}
+
+button {
+    display: flex;
+    justify-content: flex-start;
+    background-color: transparent;
+    border: none;
+    width: 200px;
+    margin: .5rem 0;
+    font-size: .9rem;
+    font-weight: 600;
+    color: #d54f44;
 }
 
 #recipes {
@@ -133,6 +168,10 @@ main .container {
 
     .recipes-content {
         gap: 1.8rem;
+    }
+
+    #recipes {
+        text-align: start !important;
     }
 }
 
