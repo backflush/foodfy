@@ -26,52 +26,6 @@
     font-family: "Roboto", sans-serif;
 }
 
-
-
-nav {
-    display: flex;
-    align-items: center;
-    padding: 1.5rem 1.5rem;
-    border-bottom: 1px solid var(--light-gray);
-    box-shadow: 0 0 1px 1px var(--light-gray);
-}
-
-nav .container {
-    display: flex;
-    max-width: 940px;
-    width: 80%;
-    margin: 0 auto;
-}
-
-nav .logo {
-    margin: 0 0 0 .5rem;
-}
-
-nav .active {
-    font-weight: 700;
-    color: var(--dark-gray-3);
-}
-
-nav ul {
-    display: flex;
-    gap: 1rem;
-    align-items: center;
-    margin-bottom: .2rem;
-    margin-left: 2rem;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: var(--dark-gray-4);
-    font-weight: 500;
-    font-size: .925rem;
-    letter-spacing: .0625rem;
-}
-
-nav ul li a:hover {
-    text-decoration: underline;
-}
-
 .display {
     display: none;
 }

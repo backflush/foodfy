@@ -16,6 +16,22 @@ nav .active {
     color: var(--light-gray);
 }
 
+main .container {
+    max-width: 940px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#recipes {
+    margin: 2.5rem 0;
+}
+
+.recipes-content {
+    display: grid;
+    gap: 1.25rem;
+    grid-template-columns: repeat(3, 1fr);
+}
+
 #recipes h3 {
     font-size: 1.5rem;
 }
