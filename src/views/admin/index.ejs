@@ -5,8 +5,8 @@
     <link rel="stylesheet" href="../../../css/partials/navbar.css">
     <link rel="stylesheet" href="../../../css/partials/modal.css">
     <link rel="stylesheet" href="../../../css/partials/footer.css">
-    <link rel="stylesheet" href="../../../css/responsiveness.css">
     <link rel="stylesheet" href="../../../css/pages/admin-index.css">
+    <link rel="stylesheet" href="../../css/responsiveness.css">
     <title>Foodfy - Administrador | Receitas</title>
 <body>
     <%- include("../partials/admnav") %> 
@@ -14,7 +14,10 @@
     <main>
         <div class="container">
             <section id="recipes">
-                <h3>Gerenciar receitas</h3>
+                <div id="title">
+                    <h3>Gerenciar receitas</h3>
+                    <a href="/admin/create" class="btn-add">Adicionar nova receita</a>
+                </div>
                 <div class="recipes-content">
                     <% data.forEach(data => { %>
                         <div class="card">

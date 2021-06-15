@@ -22,6 +22,27 @@ main .container {
     margin: 0 auto;
 }
 
+#title {
+    display: flex;
+    justify-content: space-between;
+}
+
+#title a {
+    font-size: .9rem;
+    border-radius: .4rem;
+    color: var(--white);
+    font-weight: 600;
+    text-decoration: none;
+    background-color: #d54f44;
+    padding: .5rem 1rem;
+    transition: 300ms;
+    margin: 0 0 .5rem 0;
+}
+
+#title a:hover {
+    opacity: .9;
+}
+
 #recipes {
     margin: 2.5rem 0;
 }
