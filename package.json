@@ -4,7 +4,7 @@
   "description": "It's a database of recipes done by the best cookers in the world.",
   "main": "src/app.js",
   "scripts": {
-    "start": "nodemon src/app.js"
+    "start": "nodemon ."
   },
   "keywords": [],
   "author": "Wesley Bernardes",
