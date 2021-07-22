@@ -1,7 +1,7 @@
 # foodfy
-![Preview-Screen](./public/images/foodfyCover.jpeg)
+![Preview-Screen](./public/assets/foodfyCover.jpeg)
 
-If you want to take a look on all screens of the application, they are [here](https://drive.google.com/file/d/12lZGYCBzAasvXh1FQ061cqfx9qlTgoAf/view?usp=sharing).
+If you want to take a look on all screens of the application, they are [here](https://drive.google.com/drive/folders/102CEHvOE-kIf56JeUnbTzQC8qDwlvDce?usp=sharing).
 
 ## About this project
 
