@@ -1,7 +1,7 @@
 # foodfy
 ![Preview-Screen](./public/images/foodfyCover.jpeg)
 
-If you want to take a look on all screens of the application, they are [here]().
+If you want to take a look on all screens of the application, they are [here](https://drive.google.com/file/d/12lZGYCBzAasvXh1FQ061cqfx9qlTgoAf/view?usp=sharing).
 
 ## About this project
 
