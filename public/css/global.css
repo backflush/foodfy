@@ -18,12 +18,42 @@
     --light-pink: #fbdfdb;
 }
 
-* {
+*, *::before, *::after {
     margin: 0;
     padding: 0;
+
     box-sizing: border-box;
+
     list-style: none;
+
     font-family: "Roboto", sans-serif;
+
+    overflow: overlay;
+}
+
+::-webkit-scrollbar {
+    width: 14px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 14px 14px transparent;
+    border: solid 4px transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    box-shadow: inset 0 0 14px 14px #c4c4c4;
+    border: solid 4px transparent;
+    border-radius: 14px;
+    
+    transition: 300ms;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    box-shadow: inset 0 0 14px 14px #c4c4c4;
+}
+
+::-webkit-scrollbar-button {
+    display: none;
 }
 
 .display {
